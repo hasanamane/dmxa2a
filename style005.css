@@ -1,0 +1,124 @@
+    *
+    {
+        padding: 0px;
+        margin: 0%;
+    }
+    nav .co-span1
+    {
+        color: red;
+        font-size: 26px;
+    }
+    .logo
+    {
+        float: right;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    .bar ul li
+    {
+        list-style: none;
+        display: inline-block;
+        padding-right: 20px;
+        font-size: 18px;
+        padding-top: 10px;
+        
+    }
+    .bar ul li a
+    {
+        text-decoration: none;
+        color:#cc8e35;
+    }
+    .sidenav
+    {
+        height: 100%;
+        width:0;
+        position: fixed;
+        z-index: 1;
+        top:0;
+        left: 0;
+        border: 1px solid  black;
+        box-sizing: border-box;
+        background-color: #253342;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+
+
+    }
+
+    .sidenav a 
+    {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: white;
+    display: block;
+    font-size: 25px;
+    transition: 0.3s;
+
+
+    }
+    .sidenav a:hover
+    {
+        color: #0652DD;
+    }
+    sidenav .closebtn
+    {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    #main
+    {
+        transition: margin-left .5s;
+        padding: 16px;
+
+    }span
+    {
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .co-under #main
+    {
+        display:inline;
+    }
+    .bar
+    {
+        display: inline-block;
+    }
+    .co-nav
+    {
+        position: sticky;
+        top:0;
+        z-index: 100;
+    }
+    body
+    {
+      background-color: #eee;  
+    }
+    .bar a:hover
+    {
+        border-bottom:2px solid blue ;
+    }  .bar a:focus
+    {
+        border-bottom:2px solid blue ;
+    }
+    .mb-3 input[type=email]
+    {
+        width: 45%;
+    }
+    .mb-3 input[type=Password]
+    {
+        width: 45%;
+    }
+    .mb-3
+    {
+      
+        padding-left:40% ;
+    }
+    .btn-primary
+    {
+        margin-left:40% ;
+    }
